@@ -10,6 +10,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
@@ -21,7 +22,7 @@ import helloworld.composeapp.generated.resources.compose_multiplatform
 fun App() {
     MaterialTheme {
        Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center ){
-           Text("Hello worlds")
+           Text("Hello world", color = Color.Cyan)
        }
     }
 }
